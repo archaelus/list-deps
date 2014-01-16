@@ -1,0 +1,11 @@
+{application, list_deps,
+ [
+  {description, "Rebar dependency lister"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
